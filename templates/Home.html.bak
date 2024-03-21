@@ -1,0 +1,56 @@
+<html>
+    <head>
+      
+        
+    </head>
+    <body>
+        <h1>Index Page</h1>
+        <form action ="{{url_for('result')}}" align="center">
+        <br>   <br>
+            <select name='Crops' required >
+                <option value="1">Rice</option>
+                <option value="2">MAIZE</option>
+                <option value="3">Groundnut</option>
+                <option value="4">MOONG</option>
+                <option value="5">URAD</option>
+                <option value="6">SOYABEAN</option>
+                <option value="7">Jowar</option>
+                <option value="8">tur</option>
+                <option value="9">cotton</option>
+				
+          
+            </select>   <br><br>
+            
+             <select name='year' required >
+                <option value="5">2015-16</option>
+                <option value="6">2016-17</option>
+                <option value="7">2017-18</option>
+                <option value="8">2018-29</option>
+                <option value="9">2019-20</option>
+                <option value="10">2020-21</option>
+                <option value="11">2021-22</option>
+                <option value="12">2022-23</option>
+                <option value="13">2023-24</option>
+				<option value="14">2024-25</option>
+                <option value="15">2025-25</option>
+               
+          
+            </select>   <br><br>
+            
+              <br><br> <input type ="submit">   <br>
+        
+        </form>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
